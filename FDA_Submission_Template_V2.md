@@ -27,7 +27,7 @@ Falls Positives (FPs)
 ### 2. Algorithm Design and Function
 
 << Insert Algorithm Flowchart >>
-![X-Ray Image Analysis Flow Chart](Flowchart_DICOM.jpeg)
+![X-Ray Image Analysis Flow Chart](Flowchart_DICOM.png, raw=true)
 
 **DICOM Checking Steps:**
 As we read each image from the disk we check the following attributes of the DICOM image to check if the 
@@ -67,16 +67,16 @@ The following image augmentation were used to create additional training images 
     
  A few examples of augmented images are shown below:
  
-![Examples of Augmented Images](augmented_images.png)
+![Examples of Augmented Images](augmented_images.png, raw=true)
 
  
  Batch Size of 32 and learning rate of 1e-4 alonng with Adam optimizer were used during teh training process.
  
-![Training Loss and Accuracy](Training_Loss_Accuracy.png)
+![Training Loss and Accuracy](Training_Loss_Accuracy.png, raw=true)
 
 << Insert algorithm training performance visualization >> 
 
-![Training Recall Performance](recall.png)
+![Training Recall Performance](recall.png, raw=true)
 
 << Insert P-R curve >>
 
@@ -89,20 +89,20 @@ For a threshold of 0.5, the F1 score and recall were maximum at 0.71 and ).70 re
 **Description of Training Dataset:** 
 Our training dataset has 2290 rows of data equally divided between pneumonia positive cases and negative cases.  The gender is distributed with more males than females as follows:
 
-![Training Dataset Gender Distribution](train_gender_dist.png)
+![Training Dataset Gender Distribution](train_gender_dist.png, raw=true)
 
 The distribution of Patient Age is as follows with most cases between 10 and 80 in the training set.
 
-![Training Dataset Age Distribution](train_age_dist.png)
+![Training Dataset Age Distribution](train_age_dist.png, raw=true)
 
 **Description of Validation Dataset:** 
 
 We have 1430 rows in the validation dataset with following distributions of Patient Gender and Age. From these  we see similar distributions of gender and age between training and validation datasets.  
 
-![Validation Dataset Gender Distribution](train_gender_dist.png)
+![Validation Dataset Gender Distribution](train_gender_dist.png, raw=true)
 
 
-![Validation Dataset Age Distribution](train_age_dist.png)
+![Validation Dataset Age Distribution](train_age_dist.png, raw=true)
 
 
 ### 5. Ground Truth
