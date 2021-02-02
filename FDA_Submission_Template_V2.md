@@ -27,7 +27,7 @@ Falls Positives (FPs)
 ### 2. Algorithm Design and Function
 
 << Insert Algorithm Flowchart >>
-![X-Ray Image Analysis Flow Chart](Flowchart_DICOM.png, raw=true)
+![X-Ray Image Analysis Flow Chart](Flowchart_DICOM.png?raw=true)
 
 **DICOM Checking Steps:**
 As we read each image from the disk we check the following attributes of the DICOM image to check if the 
